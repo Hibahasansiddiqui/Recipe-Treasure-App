@@ -1,0 +1,66 @@
+body {
+	padding:10px;
+	font-family: 'Playfair Display', serif;
+	background-color:lightyellow;
+}
+
+.title {
+	font-size:40px;
+	text-align:center;
+	letter-spacing:3px;
+	border-radius: 15px;
+	padding:10px;
+	background-image: linear-gradient(62deg, rgb(174, 82, 72) 0%, lightsalmon 100%);
+}
+
+.search-and-add {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	padding:20px;
+}
+
+button {
+	margin-left:10px;
+}
+
+.recipes {
+	display:flex;
+	flex-direction:flex-start;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.recipe-entry {
+    background-color:lightsalmon;
+    border: solid 3px rgb(174, 82, 72);
+	margin:10px;
+}
+
+.name {
+    box-sizing: border-box ;
+	font-size:20px;
+	text-align:center;
+}
+
+img {
+	height:auto;
+	max-width:100%;
+}
+
+a {
+	text-decoration:none;
+}
+
+.recipe-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 300px; /* Full width */
+  height: 500px; /* Full height */
+  margin: 0 auto;
+  overflow: auto;
+  background-color: white;
+}
