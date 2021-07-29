@@ -19,7 +19,7 @@
 - Now you can interact with the app on browser
 
 ## Repository Link
-- https://github.com/Hibahasansiddiqui/To-Do-List-Project
+- https://github.com/Hibahasansiddiqui/Recipe-Treasure-App
 
 ## Live Link:
-- https://hibahasansiddiqui.github.io/To-Do-List-Project/
+- https://hibahasansiddiqui.github.io/Recipe-Treasure-App/
